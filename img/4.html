@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>原麦研究所--点单配送</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <header>
+        <a href="#"" class="logo"><i class="fas-fa-untensils"></i>原麦研究所</a>
+        <nav class="navbar">
+            <a href="1.html">首页</a>
+            <a href="2.html">全部菜单</a>
+            <a class="active" href="4.html">点单配送</a>
+            <!-- <a href="#review">购物车</a> -->
+            <!-- <a href="#order">order</a> -->
+        </nav>
+
+        <div class="icons">
+           <i class="fas fa-bars" id="menu-bars"></i>
+           <i class="fas fa-search" id="search-icon"></i>
+           <a href="#" class="fas fa-heart"></a>
+           <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    
+    </header>
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..."name="" id="search-box">
+        <label for="search-box"class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+
+
+<section class="menu" id="menu">
+    <!-- <h3 class="sub-heading"> 我们的菜单 </h3> -->
+    <h3 class="heading"> <br/>   </h3>
+    <div class="box-container">
+
+
+
+        <section class="order" id="order">
+
+            <h3 class="sub-heading">点单配送 </h3>
+            <h1 class="heading">免费、快速</h1>
+        
+            <form action="">
+        
+                <div class="inputbox">
+                    <div class="input">
+                        <span>姓名</span>
+                        <input type="text" placeholder="请填写你的姓名">
+                    </div>
+                    <div class="input">
+                        <span>手机号码</span>
+                        <input type="number" placeholder="请填写你的手机号码">
+                    </div>
+                </div>
+                <div class="inputbox">
+                    <div class="input">
+                        <span>你的订单</span>
+                        <input type="text" placeholder="请填写需要的甜品名称">
+                    </div>
+                    <div class="input">
+                        <span>备注</span>
+                        <input type="tset" placeholder="请填写你的要求">
+                    </div>
+                </div>
+                <div class="inputbox">
+                    <div class="input">
+                        <span>数量</span>
+                        <input type="number" placeholder="请填写需要的数量">
+                    </div>
+                    <div class="input">
+                        <span>日期和时间</span>
+                        <input type="datetime-local" >
+                    </div>
+                </div>
+                <div class="inputbox">
+                    <div class="input">
+                        <span>地址</span>
+                        <textarea name="" placeholder="请填写你的地址" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="input">
+                        <span>留言</span>
+                        <textarea name="" placeholder="请填写你的留言" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+        
+                <input type="submit" value="提交订单" class="btn">
+        
+            </form>
+        
+        </section>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="1.js"></script>
+</body>
+</html>

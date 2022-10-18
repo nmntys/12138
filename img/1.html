@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><!-- 定义字符编码格式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>东百往事</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="1.css"><!-- 链接外部样式表，href规定文件位置 -->
+</head>
+<body>
+    <header>
+        <a href="#"" class="logo"><i class="fas-fa-untensils"></i>东百往事</a>
+		<img src="GIF.gif" alt="">
+		</div>
+		<!-- a标签定义超链接，href规定链接地址，i标签规定文本斜体效果，超链接的#规定它可以被点击 -->
+        <nav class="navbar"><!-- nav定义导航链接部分 -->
+            <a class="active" href="#home">首页</a>
+            <a href="#dishes">英雄介绍</a>
+            <a href="#about">往日狠活</a>
+            <a href="#menu">后记</a>
+            <a href="2.html">全部菜单</a>
+            <a href="4.html">点单配送</a>
+            <!-- <a href="#review">购物车</a>
+            <a href="#order">order</a> -->
+        </nav>
+
+        <div class="icons">
+           <i class="fas fa-bars" id="menu-bars"></i>
+           <i class="fas fa-search" id="search-icon"></i>
+           <a href="#" class="fas fa-heart"></a>
+           <a href="#" class="fas fa-shopping-cart"></a>
+		   <!-- #代表回到开头 -->
+        </div>
+    
+    </header>
+
+    <form action="" id="search-form">
+		<!-- form标签创建表单，后面跟着input标签，action代表提交后前往的地址 -->
+        <input type="search" placeholder="search here..."name="" id="search-box">
+		<!-- placeholder代表搜索框的隐藏字符，输入文字后会消失 -->
+        <label for="search-box"class="fas fa-search"></label>
+		
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <section class="home" id="home">
+
+        <div class="swiper-container home-slider">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>秋冬新品上市</span>
+						<!-- span对其内容定义，设定样式时<父元素.class-name span> -->
+                        <h3>红茶奶酥</h3>
+                        <p>英国皇家伯爵红茶、私房特调奶酥。伯爵红茶的高雅清香从汤种老面引出的弹牙面包中飘出，搭配甜润的奶酥馅料，体现冠军主厨的用心与创意。</p>
+                        <a href="#" class="btn">立即订购</a>
+                    </div>
+                    <div class="image">
+                        <img src="hcns.jpg" alt="">
+                    </div>
+                </div>
+                
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>秋冬新品上市</span>
+                        <h3>月半蕉</h3>
+                        <p>当干香蕉片微微的焦香与巧克力一起交融在味蕾，不甚完美却是天生绝配。</p>
+                        <a href="#" class="btn">立即订购</a>
+                    </div>
+                    <div class="image">
+                        <img src="ybj.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>秋冬新品上市</span>
+                        <h3>全麦乳酸蔓越莓</h3>
+                        <p>全麦粉、乳酸内馅、蔓越莓干、新西兰黄油。健康的全麦、增加肠道益生菌的乳酸和天然抗氧化剂蔓越莓，亲近轻畅氧气生活，从它开始。</p>
+                        <a href="#" class="btn">立即订购</a>
+                    </div>
+                    <div class="image">
+                        <img src="qmr.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swpier-pagination"></div>
+
+        </div>
+
+    </section>
+    <section class="dishes" id="dishes">
+
+        <h1 class="sub-heading"> 英雄介绍 </h1>
+        
+
+        <div class="box-container">
+            <div class="box">
+				<div class="box2">
+					<a href="" class="zhanli"><img src="file:///D:/jiaohu/dongbai/img/huge2.jpg" alt=""></a>
+					<img src="file:///D:/jiaohu/dongbai/img/huge.jpg" alt="">
+					<h3 class="mingzi">虎哥</h3>
+					
+				</div>
+				<div class="content">
+					<p class="title">沈阳最强傳説&絕兇の猛虎！</br>
+					虎之极力！
+					</p>
+					<p></p>
+				</div>
+
+			
+			</div>
+
+            
+            <div class="box-container">
+                <div class="box">
+					<div class="box2">
+						<a href="" class="zhanli"><img src="file:///D:/jiaohu/dongbai/img/tuanzhang2.jpg" alt=""></a>
+						<img src="file:///D:/jiaohu/dongbai/img/tuanzhang.jpg" alt="">
+						<h3 class="mingzi">杀马特团长</h3>
+					</div>
+					<div class="content">
+						<p class="title">异乡绝力旅人&绿发の森精！</br>
+						杀之极怒！
+						</p>
+					</div>
+                
+
+                </div>
+            </div>
+            <div class="box-container">
+                <div class="box">
+					<div class="box2">
+						<a href="" class="zhanli"><img src="file:///D:/jiaohu/dongbai/img/xiaoliang2.jpg" alt=""></a>
+						<img src="file:///D:/jiaohu/dongbai/img/xiaoliang.jpg" alt="">
+						<h3 class="mingzi">小亮</h3>
+					</div>
+					<div class="content">
+						<p class="title">沈陽最奇傳説&不传の秘技！</br>
+						亮之回旋！
+						</p>
+					</div>
+ 
+                </div>
+            </div>
+			<div class="box-container">
+			    <div class="box">
+					<div class="box2">
+						<a href="" class="zhanli"><img src="file:///D:/jiaohu/dongbai/img/tanglaoya2.jpg" alt=""></a>
+						<img src="file:///D:/jiaohu/dongbai/img/tanglaoya.jpg" alt="">
+						<h3 class="mingzi">唐老鸭</h3>
+					</div>
+					<div class="content">
+						<p class="title">沈陽复生傳説&不死の亡靈！</br>
+						唐之再生！
+						</p>
+					</div>
+			 
+			    </div>
+			</div>
+			<div class="box-container">
+			    <div class="box">
+					<div class="box2">
+						<a href="" class="zhanli"><img src="file:///D:/jiaohu/dongbai/img/daoge2.jpg" alt=""></a>
+						<img src="file:///D:/jiaohu/dongbai/img/daoge.jpg" alt="">
+						<h3 class="mingzi">刀哥</h3>
+					</div>
+					<div class="content">
+						<p class="title">沈陽最速傳説&疾走の猛虎!</br>
+						刀之急行！
+						</p>
+					</div>
+			 
+			    </div>
+			</div>
+			<div class="box-container">
+			    <div class="box">
+					<div class="box2">
+						<a href="" class="zhanli"><img src="file:///D:/jiaohu/dongbai/img/heiniu2.jpg" alt=""></a>
+						<img src="file:///D:/jiaohu/dongbai/img/heiniu.jpg" alt="">
+						<h3 class="mingzi">黑牛</h3>
+					</div>
+					<div class="content">
+						<p class="title">异乡绝密从者&阴险の叛者！</br>
+						黑之隐忍！
+						</p>
+					</div>
+			 
+			    </div>
+			</div>
+			<div class="box-container">
+			    <div class="box">
+					<div class="box2">
+						<a href="" class="zhanli"><img src="file:///D:/jiaohu/dongbai/img/bainiu2.jpg" alt=""></a>
+						<img src="file:///D:/jiaohu/dongbai/img/bainiu.jpg" alt="">
+						<h3 class="mingzi">白牛</h3>
+					</div>
+					<div class="content">
+						<p class="title">异乡绝意从者&虔诚の信徒</br>
+						白之复仇！
+						</p>
+					</div>
+			 
+			    </div>
+			</div>
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+
+        <h3 class="sub-heading">往日狠活</h3>
+
+        <div class="row">
+			<div class="box">
+				<div class=box2>
+					<img src="file:///D:/jiaohu/dongbai/img/dulixuanyan.jpg">
+					<h3 class="title">独立宣言</h3>
+				</div>
+			</div>
+			
+			<div class="box">
+				<div class=box2>
+					<img src="file:///D:/jiaohu/dongbai/img/gejizhiren.jpg">
+					<h3 class="title">歌姬指定</h3>
+				</div>
+			</div>
+			
+			<div class="box">
+				<div class=box2>
+					<img src="file:///D:/jiaohu/dongbai/img/haoguozhi.jpg">
+					<h3 class="title">请你喝好果汁</h3>
+				</div>
+			</div>
+			
+			<div class="box">
+				<div class=box2>
+					<img src="file:///D:/jiaohu/dongbai/img/wobudaoa.jpg">
+					<h3 class="title">我不道啊</h3>
+				</div>
+			</div>
+			
+			<div class="box">
+				<div class=box2>
+					<img src="file:///D:/jiaohu/dongbai/img/huixuanti.jpg">
+					<h3 class="title">草，走，忽略</h3>
+				</div>
+			</div>
+			
+			<div class="box">
+				<div class=box2>
+					<img src="file:///D:/jiaohu/dongbai/img/bowenjizou.jpg">
+					<h3 class="title">波纹疾走</h3>
+				</div>
+			</div>
+			
+			<div class="box">
+				<div class=box2>
+					<img src="file:///D:/jiaohu/dongbai/img/huzhibeichuang.jpg">
+					<h3 class="title">虎之悲怆</h3>
+				</div>
+			</div>
+			
+			<div class="box">
+				<div class=box2>
+					<img src="file:///D:/jiaohu/dongbai/img/dazhanxuanyan.jpg">
+					<h3 class="title">大战宣言</h3>
+				</div>
+			</div>
+			
+			<div class="box">
+				<div class=box2>
+					<img src="file:///D:/jiaohu/dongbai/img/zhongjuzhizhan.jpg">
+					<h3 class="title">终局之战</h3>
+				</div>
+			</div>
+        </div>
+
+    </section>
+
+<section class="menu" id="menu">
+    <h3 class="sub-heading" > 后记 </h3>
+	<div id="container">
+	     <img src="left.png">
+	     <div>
+	         <ul>
+	             <li><a href="#"><img src="file:///D:/jiaohu/dongbai/img/txt1.jpg"></a></li>
+	             <li><a href="#"><img src="file:///D:/jiaohu/dongbai/img/txt2.jpg"></a></li>
+	             <li><a href="#"><img src="file:///D:/jiaohu/dongbai/img/txt3.jpg"></a></li>
+	             <li><a href="#"><img src="file:///D:/jiaohu/dongbai/img/txt4.jpg"></a></li>
+				 <li><a href="#"><img src="file:///D:/jiaohu/dongbai/img/txt5.jpg"></a></li>
+	         </ul>
+	     </div>
+	     <img src="right.png">
+	 </div>
+	<script>
+	     window.onload = function() {
+	         let container = document.getElementById('container');
+	         let scoll = container.getElementsByTagName("ul")[0];
+	         let imgArr = document.querySelectorAll('#container > img');
+	         let btnLeft = imgArr[0];
+	         let btnRight = imgArr[1];
+	         //滚动速度
+	         let speed = 10;
+	         //滚动方向(初始向右)
+	         let fangxiang = -1;
+	         //获取图片数量
+	         let imgNum = scoll.getElementsByTagName("img").length;
+	         //获取图片宽度
+	         let imgWidth = scoll.getElementsByTagName("img")[0].width;
+	         //获取滚动条宽度
+	         let scollWidth = imgNum * imgWidth;
+	         //给滚动条加一倍的内容
+	         scoll.style.width = scollWidth * 5 + "px";
+	         scoll.innerHTML += scoll.innerHTML;
+	         //滚动条初始位置
+	         scoll.style.left = "-" + scollWidth + "px";
+	         let myTimer = setInterval(gundong, 40);
+	         function gundong() {
+	             if (fangxiang == 1) {
+	                 if (scoll.offsetLeft >= 0) {
+	                     scoll.style.left = "-" + scollWidth + "px";
+	                 }
+	             } else {
+	                 if (scoll.offsetLeft <= scollWidth * -1) {
+	                     scoll.style.left = 0 + "px";
+	                 }
+	             }
+	             scoll.style.left = scoll.offsetLeft + (speed * fangxiang) + "px";
+	         }
+	         btnLeft.onmouseover = function() {
+	             fangxiang = -1;
+	         };
+	         btnRight.onmouseover = function() {
+	             fangxiang = 1;
+	         };
+	         scoll.onmouseover = function() {
+	             clearInterval(myTimer);
+	         }
+	         scoll.onmouseout = function() {
+	             myTimer = setInterval(gundong, 40);
+	         }
+	     }
+	 </script>
+	<div class="content">
+			<h3 class="title">记东百往事</h3>
+			<p align="center" class="content">它不必具有多么复杂的含义，<br>
+			即便那个视频的内容是一群土味主播在整烂活，<br>
+			但对于这些看视频的人来说，<br>
+			重要的从来都只是那短暂的一分钟。 </p>
+	</div>
+
+	<a href="#" class="GIF"><img src="GIF2.gif" alt=""></a>
+	</div>
+</section>
+ <section class="footer">
+ 
+     <div class="box-container">
+     
+         <div class="box">
+             <h3>城市</h3>
+             <a href="#">北京市</a>
+             <a href="#">上海市</a>
+             <a href="#">广州市</a>
+             <a href="#">深圳市</a>
+             <a href="#">南京市</a>
+         </div>
+ 
+         <div class="box">
+             <h3>链接</h3>
+             <a href="#">首页</a>
+             <a href="#">英雄介绍</a>
+             <a href="#">往日狠活</a>
+             <a href="#">后记</a>
+             <a href="#">全部菜单</a>
+             <a href="#">点单配送</a>
+         </div>
+ 
+         <div class="box">
+             <h3>友情链接</h3>
+             <a href="#">+123-456-7890</a>
+             <a href="#">+111-222-3333</a>
+             <a href="#">Shaikhannas@Gmail.Com</a>
+             <a href="#">Anasbhai.Gmail.Com</a>
+             <a href="#">北京.中国-100000</a>
+         </div>
+ 
+         <div class="box">
+             <h3>关注我们</h3>
+             <a href="#">微信</a>
+             <a href="#">小红书</a>
+             <a href="#">抖音</a>
+             <a href="#">微博</a>
+             <a href="#">哔哩哔哩</a>
+         </div>
+ 
+ 
+     </div>
+ 
+     
+ 
+ 
+ 
+ 
+ 
+ </section>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+     <script src="1.js"></script>
+ </body>
+ </html>
+ 
+ 
